@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Sample.Enricher;
 using Serilog;
 
 namespace Sample
@@ -19,8 +20,9 @@ namespace Sample
             // set up successfully.
             Log.Logger = new LoggerConfiguration()
                 .WriteTo.Console()
-                .CreateBootstrapLogger();
-            
+                .Enrich.WithReleaseNumber()
+                .CreateLogger();
+
             Log.Information("Starting up!");
 
             try
@@ -47,7 +49,11 @@ namespace Sample
                     .ReadFrom.Configuration(context.Configuration)
                     .ReadFrom.Services(services)
                     .Enrich.FromLogContext()
+                .Enrich.WithProperty("Test","1212")
+                                .Enrich.WithReleaseNumber()
+
                     .WriteTo.Console())
+
                 .ConfigureWebHostDefaults(webBuilder => { webBuilder.UseStartup<Startup>(); });
     }
 }

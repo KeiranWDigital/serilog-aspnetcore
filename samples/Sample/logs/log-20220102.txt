@@ -1,0 +1,56 @@
+|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.|{  }
+|Microsoft.Hosting.Lifetime|Hosting environment: Development|{  }
+|Microsoft.Hosting.Lifetime|Content root path: C:\Github\serilog-aspnetcore\samples\Sample|{  }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "e82bdec3-d1e3-41fd-a903-7d1aad18e607", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "4000001d-0000-fd00-b63f-84710c7967bb", RequestPath: "/" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 197.7525 ms|{ IndexCallCount: 1, RequestId: "4000001d-0000-fd00-b63f-84710c7967bb" }
+|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.|{  }
+|Microsoft.Hosting.Lifetime|Hosting environment: Development|{  }
+|Microsoft.Hosting.Lifetime|Content root path: C:\Github\serilog-aspnetcore\samples\Sample|{  }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "033c43ec-9d83-4044-a8aa-374e7eaf5394", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000013-0002-fe00-b63f-84710c7967bb", RequestPath: "/" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 169.0765 ms|{ IndexCallCount: 1, RequestId: "40000013-0002-fe00-b63f-84710c7967bb" }
+2022-01-02 14:15:20.126 +00:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-01-02 14:15:20.153 +00:00 [INF] Hosting environment: Development
+2022-01-02 14:15:20.154 +00:00 [INF] Content root path: C:\Github\serilog-aspnetcore\samples\Sample
+2022-01-02 14:15:20.200 +00:00 [INF] Hello, world!
+2022-01-02 14:15:20.312 +00:00 [INF] HTTP GET / responded 200 in 160.0053 ms
+|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.|{  }
+|Microsoft.Hosting.Lifetime|Hosting environment: Development|{  }
+|Microsoft.Hosting.Lifetime|Content root path: C:\Github\serilog-aspnetcore\samples\Sample|{  }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "1d9dd1e6-6da6-43ca-8ba7-8177f3199e44", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "4000000c-0005-fb00-b63f-84710c7967bb", RequestPath: "/" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 186.9542 ms|{ IndexCallCount: 1, RequestId: "4000000c-0005-fb00-b63f-84710c7967bb" }
+|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.|{ Test: "1212" }
+|Microsoft.Hosting.Lifetime|Hosting environment: Development|{ Test: "1212" }
+|Microsoft.Hosting.Lifetime|Content root path: C:\Github\serilog-aspnetcore\samples\Sample|{ Test: "1212" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "f3d59d7d-41ca-4976-8f49-48abe03bcbea", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "4000000f-0001-fd00-b63f-84710c7967bb", RequestPath: "/", Test: "1212" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 163.2017 ms|{ IndexCallCount: 1, RequestId: "4000000f-0001-fd00-b63f-84710c7967bb", Test: "1212" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "f3d59d7d-41ca-4976-8f49-48abe03bcbea", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000013-0001-fd00-b63f-84710c7967bb", RequestPath: "/", Test: "1212" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 3.5654 ms|{ IndexCallCount: 2, RequestId: "40000013-0001-fd00-b63f-84710c7967bb", Test: "1212" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "f3d59d7d-41ca-4976-8f49-48abe03bcbea", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "4000000e-0002-fb00-b63f-84710c7967bb", RequestPath: "/", Test: "1212" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 1.0398 ms|{ IndexCallCount: 3, RequestId: "4000000e-0002-fb00-b63f-84710c7967bb", Test: "1212" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "f3d59d7d-41ca-4976-8f49-48abe03bcbea", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "4000000a-0003-fb00-b63f-84710c7967bb", RequestPath: "/", Test: "1212" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 1.3921 ms|{ IndexCallCount: 4, RequestId: "4000000a-0003-fb00-b63f-84710c7967bb", Test: "1212" }
+|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.|{ Test: "1212", ReleaseNumber: "local" }
+|Microsoft.Hosting.Lifetime|Hosting environment: Development|{ Test: "1212", ReleaseNumber: "local" }
+|Microsoft.Hosting.Lifetime|Content root path: C:\Github\serilog-aspnetcore\samples\Sample|{ Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "4000000c-0004-f600-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 256.6420 ms|{ IndexCallCount: 1, RequestId: "4000000c-0004-f600-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000015-0001-fd00-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 7.0164 ms|{ IndexCallCount: 2, RequestId: "40000015-0001-fd00-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000010-0000-fb00-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 3.4291 ms|{ IndexCallCount: 3, RequestId: "40000010-0000-fb00-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000012-0000-fb00-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 1.5710 ms|{ IndexCallCount: 4, RequestId: "40000012-0000-fb00-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000010-0004-f600-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 2.5388 ms|{ IndexCallCount: 5, RequestId: "40000010-0004-f600-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000017-0001-fd00-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 0.8819 ms|{ IndexCallCount: 6, RequestId: "40000017-0001-fd00-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000016-0005-fa00-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 0.6545 ms|{ IndexCallCount: 7, RequestId: "40000016-0005-fa00-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000014-0000-fb00-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 0.8482 ms|{ IndexCallCount: 8, RequestId: "40000014-0000-fb00-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000012-0002-fb00-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 1.3735 ms|{ IndexCallCount: 9, RequestId: "40000012-0002-fb00-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000015-0003-fd00-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 1.3395 ms|{ IndexCallCount: 10, RequestId: "40000015-0003-fd00-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
+|Sample.Controllers.HomeController|Hello, world!|{ ActionId: "265ba70e-9004-44ba-a570-0f4c4aa3d019", ActionName: "Sample.Controllers.HomeController.Index (Sample)", RequestId: "40000017-0003-fd00-b63f-84710c7967bb", RequestPath: "/", Test: "1212", ReleaseNumber: "local" }
+|Serilog.AspNetCore.RequestLoggingMiddleware|HTTP GET / responded 200 in 0.9737 ms|{ IndexCallCount: 11, RequestId: "40000017-0003-fd00-b63f-84710c7967bb", Test: "1212", ReleaseNumber: "local" }
